@@ -1,0 +1,185 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+#title-page .container{
+  width: 100%;
+  height: 100vh;
+  background-color: #484ba0;
+}
+
+/* Header */
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+
+nav{
+  background-color: #484ba0;
+  overflow: hidden;
+  padding: 10px 85px;
+}
+
+nav h3{
+  margin: 0;
+  float: left;
+  padding: 12px 0;
+  color: #afb1d7;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+nav h3 span{
+  color: #fff;
+}
+
+nav ul{
+  margin: 0;
+}
+
+nav li{
+  text-decoration: none;
+  display: inline;
+  float: right;
+  padding: 12px 0 10px 50px;
+  letter-spacing: 2px;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+nav a{
+  color: #afb1d7;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: #fff;
+}
+
+/* Title page */
+#title-page #image{
+  width: 50%;
+  float: left;
+  height: 100vh;
+}
+
+#title-page #title{
+  margin: 0;
+  width: 50%;
+  height: 100vh;
+  float: right;
+}
+
+#title-page #title h1{
+  position: fixed;
+  top: 25%;
+  color: #fff;
+  font-size: 46px;
+  letter-spacing: 6px;
+  font-weight: 800;
+}
+
+#title-page img{
+  position: fixed;
+  bottom: 0;
+  left: 20px;
+  width: 570px;
+  height: auto;
+  z-index: 1;
+}
+
+#title-page .btn{
+  position: fixed;
+  top: 65%;
+  border-radius: 50px;
+  background-color: #ff73b4;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 160px;
+  height: 60px;
+}
+
+#title-page .btn:hover{
+  cursor: pointer;
+  background-color: #484ba0;
+  color: #ff73b4;
+  border: 1px solid #ff73b4;
+  box-shadow: 0 0 20px;
+}
+
+/* What we do */
+#whatWeDo .container{
+  position: relative;
+  background-color: #fff;
+  width: 88%;
+  height: 600px;
+  z-index: 9;
+  padding: 130px 70px;
+  overflow-y: hidden;
+}
+
+#whatWeDo .weDo{
+  width: 50%;
+  float: left;
+}
+
+#whatWeDo .weDo h1{
+  padding: 10px 0 20px 0;
+  margin: 0;
+  color: #424c5c;
+  font-size: 70px;
+  font-weight: 900;
+  letter-spacing: 16px;
+}
+
+#whatWeDo .pink-line{
+  display: block;
+  width: 100px;
+  height: 8px;
+  background-color: #ff73b4;
+}
+
+#whatWeDo .info{
+  display: grid;
+  grid-template-columns: 1fr;
+  text-transform: none;
+  color: #424c5c;
+  width: 50%;
+  float: left;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+
+#whatWeDo .info p{
+  color: #aaa;
+}
+
+#whatWeDo .more{
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+
+#whatWeDo img{
+  width: 50px;
+}
+
+#whatWeDo .img-icon{
+  padding: 20px 0;
+}
+
+#whatWeDo .img-info{
+  padding-left: 40px;
+}
+
+#whatWeDo #ornamen img{
+  position: absolute;
+  bottom: 0;
+  left: 80px;
+  width: 600px;
+}
